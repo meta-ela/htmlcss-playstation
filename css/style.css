@@ -1,0 +1,15 @@
+@import url("variables.css");
+@import url("buttons.css");
+@import url("cards.css");
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.black_bar {
+    height: 30px;
+}
+
+.sony_logo {
+    height: 100%;
+}
