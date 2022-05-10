@@ -39,9 +39,18 @@ body {
     height: 200px;
 }
 
+.width_box {
+    width: 250px;
+}
 
-
-
+.banner-img {
+    position: absolute;
+    top: 0;
+    right: -30;
+    bottom: 0;
+    width: auto;
+    height: 100%;
+}
 
 
 
@@ -67,5 +76,11 @@ body {
     .social_icon {
         width: 80px;
         height: 80px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .banner-img {
+        right: 0;
     }
 }
