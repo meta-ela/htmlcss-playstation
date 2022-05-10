@@ -2,9 +2,45 @@
 @import url("buttons.css");
 @import url("cards.css");
 
+/* memo breakpoints di bootstrap
+xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+xxl: 1400px */
+
+/* DEBUG ONLY */
+.debug_card {
+    background-color: bisque;
+}
+/* DEBUG ONLY */
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.section:not(.full_height) {
+    padding: 2rem 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .black_bar {
     height: 30px;
