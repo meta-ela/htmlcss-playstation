@@ -13,6 +13,7 @@ xxl: 1400px */
 /* DEBUG ONLY */
 .debug_card {
     background-color: bisque;
+    padding: 1rem 0rem;
 }
 /* DEBUG ONLY */
 
@@ -25,8 +26,18 @@ body {
     padding: 2rem 0rem;
 }
 
+.social_box {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
-
+.social_icon {
+    width: 200px;
+    height: 200px;
+}
 
 
 
@@ -48,4 +59,13 @@ body {
 
 .sony_logo {
     height: 100%;
+}
+
+
+
+@media screen and (min-width: 576px) {
+    .social_icon {
+        width: 80px;
+        height: 80px;
+    }
 }
