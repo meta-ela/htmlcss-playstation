@@ -10,13 +10,6 @@ lg: 992px,
 xl: 1200px,
 xxl: 1400px */
 
-/* DEBUG ONLY */
-.debug_card {
-    background-color: bisque;
-    padding: 1rem 0rem;
-}
-/* DEBUG ONLY */
-
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -73,14 +66,13 @@ a {
 .jumbotron_image {
     background-image: url("file:///C:/Users/anxhe/OneDrive/Documenti/Boolean/Lezioni/htmlcss-playstation/img/jumbo-bg.png");
     background-position: center;
-    min-height: 90vh;
+    /* object-fit: cover;
+    object-position: top; */
 }
 
-
-.my_card {
-    border-radius: 20px;
-    overflow: hidden;
-    border: 0;
+.jumbotron_text {
+    padding-top: 22rem;
+    padding-bottom: 2rem;
 }
 
 .takes_two_banner {
@@ -96,6 +88,28 @@ a {
 
 .sony_logo {
     height: 100%;
+}
+
+.border_bottom {
+    border-bottom: 2px solid transparent;
+}
+
+.border_bottom:hover {
+    border-color: var(--bs-primary);
+}
+
+.hover_opacity {
+    opacity: 50%;
+}
+
+.hover_opacity:hover {
+    opacity: 100%;
+}
+
+.hover_opacity:active {
+    opacity: 100%;
+    box-shadow: 0px 0px 0px 4px #0d6efd;
+    border-radius: 20px;
 }
 
 
