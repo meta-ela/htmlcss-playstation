@@ -15,15 +15,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+
+
+/* header {
     position: sticky;
     top: 0;
     z-index: 999;
+} */
+
+.black_bar {
+    height: 30px;
 }
 
-nav {
-    background-color: white;
-}
+
 
 .section:not(.full_height) {
     padding: 2rem 0rem;
@@ -37,18 +41,6 @@ a {
     text-decoration: none;
 }
 
-.social_box {
-    display: flex;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.social_icon {
-    width: 200px;
-    height: 200px;
-}
 
 .width_box {
     width: 250px;
@@ -81,15 +73,6 @@ a {
     background-size: cover;
 }
 
-
-.black_bar {
-    height: 30px;
-}
-
-.sony_logo {
-    height: 100%;
-}
-
 .border_bottom {
     border-bottom: 2px solid transparent;
 }
@@ -108,13 +91,40 @@ a {
 
 .hover_opacity:active {
     opacity: 100%;
-    box-shadow: 0px 0px 0px 4px #0d6efd;
     border-radius: 20px;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 50%)
 }
+
+
+
+
+.social_box {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.social_icon {
+    width: 200px;
+    height: 200px;
+}
+
+.social_icon:hover {
+    transform: scale(1.1);
+}
+
+
 
 
 footer a {
     color: white;
+}
+
+footer a:hover  {
+    color: white;
+    text-decoration: underline;
 }
 
 .language_img {
@@ -130,6 +140,12 @@ footer .logo {
 .footer_sony_logo {
     width: 150px;
 }
+
+
+
+
+
+
 
 @media screen and (min-width: 576px) {
     .social_icon {
