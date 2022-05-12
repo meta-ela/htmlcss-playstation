@@ -2,12 +2,26 @@
     height: 30px;
 }
 
-
-
 .dropdown_icon {
     width: 10px;
 }
 
+.menu ul {
+    margin-bottom: 0;
+    padding-left: 1rem;
+}
+
+.menu_list a {
+    padding: 0rem 1rem;
+    color: black;
+}
+
+.width_lens {
+    width: 25px;
+}
+
+
+/* PROVE CREAZIONE NAVBAR */
 /* #menu li {
     float: left;
     margin-right: 1rem;
@@ -28,8 +42,8 @@
 
 
 
-
-.dropdown_menu {
+/* PROVA CREAZIONE NAVBAR CON INPUT CHECKBOX */
+/* .dropdown_menu {
     background: white;
     padding: 1.5rem;
     width: 100%;
@@ -73,4 +87,4 @@ input:checked ~ label {
 
 input:checked ~ .menu_content {
     max-height: 100%;
-}
+} */
