@@ -6,6 +6,11 @@
     width: 10px;
 }
 
+.dropdown_icon_hover {
+    display: none;
+    margin: 0;
+}
+
 .menu ul {
     margin-bottom: 0;
     padding-left: 1rem;
@@ -19,6 +24,26 @@
 .width_lens {
     width: 25px;
 }
+
+/* .menu_list a:hover .dropdown_icon {
+    display: none;
+}
+
+.menu_list a:hover .dropdown_icon_hover {
+    display: block;
+} */
+
+.fa-bars {
+    color: black;
+}
+
+
+
+
+
+
+
+
 
 
 /* PROVE CREAZIONE NAVBAR */
