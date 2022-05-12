@@ -1,0 +1,76 @@
+.black_bar {
+    height: 30px;
+}
+
+
+
+.dropdown_icon {
+    width: 10px;
+}
+
+/* #menu li {
+    float: left;
+    margin-right: 1rem;
+    position: relative;
+}
+
+#menu .dropdown_menu {
+    position: absolute;
+    width: 100%;
+
+}
+
+.dropdown_menu {
+    
+    background-color: white;
+} */
+
+
+
+
+
+.dropdown_menu {
+    background: white;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.menu_content {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.dropdown_menu ul {
+    padding: 0;
+}
+
+.dropdown_menu a {
+    display: block;
+    padding: 1rem;
+    color: black;
+}
+
+.dropdown_menu label {
+    display: block;
+    cursor: pointer;
+    background-image: url(file:///C:/Users/anxhe/OneDrive/Documenti/Boolean/Lezioni/htmlcss-playstation/img/chevron-down-solid.svg);
+    padding: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 15px;
+}
+
+input#menu {
+    display: none;
+}
+
+input:checked ~ label {
+    background-image: url(file:///C:/Users/anxhe/OneDrive/Documenti/Boolean/Lezioni/htmlcss-playstation/img/chevron-down-solid-hover.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 15px;
+}
+
+input:checked ~ .menu_content {
+    max-height: 100%;
+}
