@@ -1,6 +1,4 @@
-# htmlcss-playstation
-
-## Playstation site replica.
+## Playstation site replica
 <br>
 Final results
 
